@@ -8,13 +8,13 @@ A bunch of applications developed with Blue Pill board (STM32F103C8) and CubeIDE
 Every project starts with basic settings like:
 ##### CubeMX: Pinout & Configuration 
 ```
-- **SYS**: Debug -> Serial Wire
-- **RCC:** HSE -> Crystal/Ceramic
+- SYS: Debug -> Serial Wire
+- RCC: HSE -> Crystal/Ceramic
 ```
 ##### CubeMX: Clock Configuration
 ```
-- **PLL Source Mux:** HSE
-- ***PLLMul:** x9
+- PLL Source Mux: HSE
+- *PLLMul: x9
 - System Clock Mux: PLLCLK
 - APB1 Prescaler: /2
 ```
