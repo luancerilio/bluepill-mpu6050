@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mpu6050&apos; to &apos;mpu6050_i2c&apos;" description="Rename resource &apos;mpu6050&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mpu6050" name="mpu6050_i2c" stamp="1586665664695" updateReferences="true"/>
+</session>
