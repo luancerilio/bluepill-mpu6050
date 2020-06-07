@@ -2,31 +2,31 @@
 
 Firmware of Blue Pill (STM32F103C8) communication with MPU6050 accelerometer. Developed with STM32CubeIDE.
 
-#### First step: wire up
+## First step: wire up
 Getting MPU6050 gyro and accelerometer data via I2C protocol. Data visualization via Serial.
 
-##### I2C
+### I2C
 ```
 - SDA: PB9
 - SCL: PB8
 ```
-##### Serial
+### Serial
 ```
 - RX: PB7
 - TX: PB6
 - Baud Rate: 115200
 ```
 
-#### Second step: CubeMX configuration :wrench:
+## Second step: CubeMX configuration :wrench:
 STM32CubeIDE project starts with basic settings:
 
-##### CubeMX: Pinout & Configuration 
+### CubeMX: Pinout & Configuration 
 ```
 - SYS: Debug -> Serial Wire
 - RCC: HSE -> Crystal/Ceramic
 ```
 
-##### CubeMX: Clock Configuration
+### CubeMX: Clock Configuration
 ```
 - PLL Source Mux: HSE
 - *PLLMul: x9
