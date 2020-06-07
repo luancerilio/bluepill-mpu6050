@@ -1,9 +1,9 @@
-# STM32-CubeIDE
+# Bluepill-MPU6050
 
-A bunch of applications developed with Blue Pill board (STM32F103C8) and CubeIDE (STMicroelectronics), using HAL.
+Firmware of Blue Pill board (STM32F103C8) communication with MPU6050 accelerometer. Developed with STM32CubeIDE.
 
-#### Basic Configurations :wrench:
-Every project starts with basic settings like:
+#### Basic Configuration :wrench:
+Project starts with basic settings:
 
 ##### CubeMX: Pinout & Configuration 
 ```
@@ -19,6 +19,6 @@ Every project starts with basic settings like:
 - APB1 Prescaler: /2
 ```
 
-## Blue Pill pinout
+## Reference: Blue Pill pinout
 
 ![bluepill](https://os.mbed.com/media/uploads/hudakz/stm32f103c8t6_pinout_voltage01.png)
